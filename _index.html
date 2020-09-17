@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+	<meta content="utf-8" http-equiv="encoding">
+	<title>ICRC Data Visualisation - John Carolan</title>
+	<style type="text/css">
+		html, body {margin: 0; padding: 0; overflow: hidden}
+	</style>
+</head>
+<body>
+<!-- style for three.gs stuff -->
+	<style>
+	#webgl{
+		position: relative;
+	}
+	.button {
+		font-family: Arial;
+		align: center;
+		position: absolute;
+		background-color: transparent;
+		border: none;
+		color: #EFEEF1;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		padding: 0;
+		font-size: 4vmin;
+		margin: auto;
+		z-index: 99;
+	}
+</style>
+	<!-- webgl, buttons and script sources-->
+	<div id="webgl">
+		<button class="button" id="Climate Change" style="top: 5%; left: 5%;">Climate Change</button>
+		<button class="button" id="Conflict" style="top: 5%; left: 35%;">Conflict</button>
+		<button class="button" id="Fragility" style="top: 5%; left: 50%;">Fragility</button>
+		<button class="button" id="Instability" style="top: 5%; left: 65%;">Instability</button>
+		<button class="button" id="Risk" style="top: 5%; left: 85%;">Risk</button>
+		<button class="button" id="Survival" style="top: 15%; left: 10%;">Survival</button>
+		<button class="button" id="Violence" style="top: 15%; left: 30%;">Violence</button>
+		<button class="button" id="Vulnerability" style="top: 15%; left: 55%;">Vulnerability</button>
+		<button class="button" id="Warfare" style="top: 15%; left: 80%;">Warfare</button>
+	</div>
+	<script src="lib/perlin.js"></script>
+	<script src="lib/dat.gui.min.js"></script>
+	<script src="lib/three.js"></script>
+	<script src="lib/OrbitControls.js"></script>
+	<script src="main.js"></script>
+	
+</body>
+</html>
